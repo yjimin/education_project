@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>CMSC320_Final_Project_SEDA</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>cmsc320</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14597,7 +14597,56 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Introduction"><strong>Introduction</strong><a class="anchor-link" href="#Introduction">&#182;</a></h1><h2 id="Spring-2024-Data-Science-Project">Spring 2024 Data Science Project<a class="anchor-link" href="#Spring-2024-Data-Science-Project">&#182;</a></h2><p>Collaborators: Benjamin Jordan, Jimin Yoon, Christopher Lim</p>
+<h1 id="Standardized-Testing-in-the-US">Standardized Testing in the US<a class="anchor-link" href="#Standardized-Testing-in-the-US">&#182;</a></h1><h2 id="Spring-2024-Data-Science-Project">Spring 2024 Data Science Project<a class="anchor-link" href="#Spring-2024-Data-Science-Project">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Christopher Lim: 100
+Jimin Yoon: 100
+Benjamin Jordan: 100</p>
+<p>&quot;We, all team members, agree together that the above information is true, and we are confident about our contributions to this submitted project/final tutorial.&quot;<br />
+<br />
+Christopher Lim 5/7/2024<br />
+Jimin Yoon 5/7/2024<br />
+Benjamin Jordan 5/7/2024</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Chistopher Lim:<br />
+Contributed primarily with his application of the different methods used for this project. Provided suggestions on the types of summary statistics and algorithms to use based on the attributes of the dataset which were used for this project.<br />
+<br />
+Jimin Yoon:<br />
+Contributed primarily with revisions and polish on the implemention of the project. Provided suggestions on how to improve the implementation to be more focused towards the goals of the project and contextualized them for the audience.<br />
+<br />
+Benjamin Jordan:<br />
+Contributed primarily with the implementation and coordination of the project. Was able to organize the group to enable steady progress of the project and helped to implement the code.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Introduction"><strong>Introduction</strong><a class="anchor-link" href="#Introduction">&#182;</a></h1><p>Collaborators: Benjamin Jordan, Jimin Yoon, Christopher Lim</p>
 <p>This project is an analysis of standardized testing scores across different demographics, years, and subjects. Standardized testing plays a large role in the American education system's evaluation of students performance. Throughout this project we will utilize data from <em>The Educational Opportunity Project at Stanford University</em> to identify trends and quantify how different features effect student's performance. The two main questions are what features/statistics have the most bearing on student's success, and what changes occur when we examine different demographics? By solving these questions we can better understand the trends and have an answer for why some students are performing better or worse than average.</p>
 <p>We will conduct our analysis in multiple steps. Beginning with data curation and subsequent cleaning/pre processing along with exploratory data analysis where we will be testing different hypothesis with labeled visualizations. Then we conduct some feature engineering to apply different machine learning techniques to draw further conclusions about trends in the data and make predictions. Finally we shall provide a conclusion incorporating all of the findings and trends.</p>
 
@@ -14614,7 +14663,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <p><strong>Data Curation</strong></p>
 <p>All of our data come from <em>The Educational Opportunity Project at Stanford University</em> which can be found here: <a href="https://edopportunity.org/">https://edopportunity.org/</a>
 The data, gathered by Standford, is a collection of different information about students along with their standardized testing scores.
-In the following section we load the data in and clean it, which includes cropping out some things we do not need as well as merging dataframes and renaming differnt headers to ensure it is easy to interpret.</p>
+In the following section we load the data in and clean it, which includes cropping out some things we do not need as well as merging dataframes and renaming different headers to ensure it is easy to interpret.</p>
 
 </div>
 </div>
@@ -15362,7 +15411,7 @@ class="
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Conclusions-from-this-test">Conclusions from this test<a class="anchor-link" href="#Conclusions-from-this-test">&#182;</a></h1><p><em>Sidenote:</em> The dataset we are working on here is incredibly large with more than a million rows, so we sample a hundred data points from each state. Any sample larger than 100 the ANOVA (f_oneway) gives 0.0 since it cannot display a small enough value, so we will use 100.</p>
-<p>The signifcantly small p-value shows that we can reject the null hypothesis, given that the p-value of 1 x 10^-294 is less than the alpha-value of 0.05. This means that students from each state are scoring very differently. If we examine the bar chart of means we can see which states are doing better or worse. A conclusion that can be drawn is that many North East states like MA, CT, NJ, and NH are scoring very well above others while some South West states like NM and AZ scored lower. Overall many northern states scored higher than southern ones. This data can be used when examining other data sets like educational spending to see if theres a relationship.</p>
+<p>The significantly small p-value shows that we can reject the null hypothesis, given that the p-value of 1 x 10^-294 is less than the alpha-value of 0.05. This means that students from each state are scoring very differently. If we examine the bar chart of means we can see which states are doing better or worse. A conclusion that can be drawn is that many North East states like MA, CT, NJ, and NH are scoring very well above others while some South West states like NM and AZ scored lower. Overall many northern states scored higher than southern ones. This data can be used when examining other data sets like educational spending to see if theres a relationship.</p>
 
 </div>
 </div>
@@ -15461,8 +15510,8 @@ class="
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Conclusions-from-this-Test">Conclusions from this Test<a class="anchor-link" href="#Conclusions-from-this-Test">&#182;</a></h1><p>As we can see from the independent t test and the line plot, there is signifigant difference between male and female scores. The p-value was
-8.69...*10^-6 or 0.000008692... which is an incredibly small value. This means that we can confidently reject the null hypothesis and say that there is indeed a signifigant difference between male and female test scores. The female scores are much higher and begin to increase after the 5th grade scores while male's scores keep dropping the entire way.</p>
-<p>This is very interesting information and shows a discoonnect between male students and the content they are learning. The reasoning behind this difference is not something that can be determined from these statistics alone but one could theorize many reasons. Statistics like this are important because they highlight issues we may not have seen otherwise and can quantify/visualize just how severe it is. From the line plot above a reasonable person can come to the conclusion that there is a drastic difference between male/female and the gap increases as grade increases.</p>
+8.69...*10^-6 or 0.000008692... which is an incredibly small value. This means that we can confidently reject the null hypothesis and say that there is indeed a significant difference between male and female test scores. The female scores are much higher and begin to increase after the 5th grade scores while male's scores keep dropping the entire way.</p>
+<p>This is very interesting information and shows a disconnect between male students and the content they are learning. The reasoning behind this difference is not something that can be determined from these statistics alone but one could theorize many reasons. Statistics like this are important because they highlight issues we may not have seen otherwise and can quantify/visualize just how severe it is. From the line plot above a reasonable person can come to the conclusion that there is a drastic difference between male/female and the gap increases as grade increases.</p>
 
 </div>
 </div>
@@ -15896,12 +15945,12 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Conclusions-From-Exploratory-Data-Analysis">Conclusions From Exploratory Data Analysis<a class="anchor-link" href="#Conclusions-From-Exploratory-Data-Analysis">&#182;</a></h2><p>The data that we are working with here is based upon standardized test scores across different locations and demographics. This information is split across categories like state, district, and environment like city/suburb as well as gender and race. We focused mainly on analyzing data from these different regions and checked correlation with factors like population density. From the different tests we used like the ANOVA test and coorelation coeficents we can conclude that aspects like state, envirnment, and population density affect the resulting scores. What we can take away from this is that throughout the country, despite the pretty standard education students should be receiving, their scores are very diverse indicating that student environment and location plays a significant role in their scoring. As mentioned earlier the focus was on location and envirnment but we did observe some other sigificant factors like gender. From an Independent t-test we can observe that male and female scores are very different. Female students mostly increase in average over grade level and overall scoring higher than male students who were decreasing as grade level increased.</p>
+<h2 id="Conclusions-From-Exploratory-Data-Analysis">Conclusions From Exploratory Data Analysis<a class="anchor-link" href="#Conclusions-From-Exploratory-Data-Analysis">&#182;</a></h2><p>The data that we are working with here is based upon standardized test scores across different locations and demographics. This information is split across categories like state, district, and environment like city/suburb as well as gender and race. We focused mainly on analyzing data from these different regions and checked correlation with factors like population density. From the different tests we used like the ANOVA test and correlation coefficents we can conclude that aspects like state, environment, and population density affect the resulting scores. What we can take away from this is that throughout the country, despite the pretty standard education students should be receiving, their scores are very diverse indicating that student environment and location plays a significant role in their scoring. As mentioned earlier the focus was on location and environment but we did observe some other sigificant factors like gender. From an Independent t-test we can observe that male and female scores are very different. Female students mostly increase in average over grade level and overall scoring higher than male students who were decreasing as grade level increased.</p>
 <p>Some of the trends that can be observed:</p>
 <ul>
 <li>Generally, more northern states, especially the North East, scored higher than the southern states.</li>
 <li>Those who live in the suburbs scored highest, followed by rural, then town which were pretty close, lastly cities scored the lowest.</li>
-<li>When examing the environments of suburb, urban, town, and rural all areas have a lot of outliers who scored either very high or very low on the tests.</li>
+<li>When examining the environments of suburb, urban, town, and rural all areas have a lot of outliers who scored either very high or very low on the tests.</li>
 <li>Female student's scores were significantly higher than male students.</li>
 <li>Male students scores from 3rd to 8th grade got worse as the grade increased, meaning older male students performed worse on their tests than the younger ones.</li>
 <li>On the contrary female student's scores decreased up until 5th grade after which they increased as the grade increased</li>
@@ -16065,7 +16114,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Takeaway">Takeaway<a class="anchor-link" href="#Takeaway">&#182;</a></h3><p>From the plots above we can observe that through two methods, both Linear Regression and RandomForest models the data does not have a clear linear relation. The features each have their own unique weights causing the relationship of the data to be very unique. This brings up the very relevent question of what matters the most, what features carry the most weight. The following section aims to adress this question.</p>
+<h3 id="Takeaway">Takeaway<a class="anchor-link" href="#Takeaway">&#182;</a></h3><p>From the plots above we can observe that through two methods, both Linear Regression and RandomForest models the data does not have a clear linear relation. The features each have their own unique weights causing the relationship of the data to be very unique. This brings up the very relevant question of what matters the most, what features carry the most weight. The following section aims to adress this question.</p>
 
 </div>
 </div>
@@ -17009,7 +17058,11 @@ True Values
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Conclusion</strong></p>
+<h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h2><p>It is difficult to look for contributors to academic success since on an individual level, the effects of the predictors can vary drastically depending on the situation. However, we believe that observing the general trends in the data can help others see which factors impact the most students. Our analysis of standardized testing scores, drawing from the SEDA dataset, sheds light on various factors affecting student  performance across demographics, location, and socioeconomic backgrounds.</p>
+<p>The state data revealed interesting disparities in test scores among different areas of the United States. Specifically, northern states typically outperformed their southern counterparts. This finding underscores the impact of the various influences which underly the region, affecting student test taking.</p>
+<p>Our analysis of urbanicity and its relationship to test scores revealed nuanced insights. While population density showed a weak correlation with academic performance, factors such as socioeconomic status and educational resources greatly affected student success. However, the predictive model that we have created deemed this factor to be the least important metric in predicting student success. Again, there may be underlying factors that are both correlated with the area that create this interesting difference.</p>
+<p>Furthermore, our machine learning models highlighted the importance of socioeconomic factors, more specifically the percentage of students eligible for free lunch and the poverty rate, in predicting test scores. This underscores the profound influence of economic conditions on academic outcomes, emphasizing the need for action to fix socioeconomic disparities in education.</p>
+<p>In conclusion, our analysis only emphasizes the complex nature of the factors in academic success, influenced by combination of demographic, geographic, and socioeconomic factors. Our findings provide valuable insights for those seeking to promote equity in education. Moving forward, policy decisions, informed by our data and findings, are important for addressing disparities and creating more equitable education for students.</p>
 
 </div>
 </div>
